@@ -15,9 +15,9 @@ ESP8266WebServer server(80);  // Create an instance of the ESP8266WebServer clas
 void handleRoot() {
   // Generate the HTML page to display temperature and humidity
   String html = "<html><body style=\"text-align: center; font-size: 3em;\">"; // Add style attribute to center align the content
-  html += "<h1>Temperature and Humidity</h1>";
-  html += "<p>Temperature: " + String(dht.readTemperature()) + " &#8451;</p>";
-  html += "<p>Humidity: " + String(dht.readHumidity()) + " %</p>";
+  html += "<h1>Temperatur & Luftfuktighet</h1>";
+  html += "<p>Temperatur: " + String(dht.readTemperature()) + " &#8451;</p>";
+  html += "<p>Luftfuktighet: " + String(dht.readHumidity()) + " %</p>";
   html += "<p>ESP8266 IP Address: " + WiFi.localIP().toString() + "</p>";  // Display the IP address
   html += "</body></html>";
 
