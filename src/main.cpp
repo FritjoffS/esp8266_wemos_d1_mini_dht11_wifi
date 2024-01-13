@@ -3,6 +3,7 @@
 #include <ESP8266WebServer.h>
 #include <Adafruit_Sensor.h>
 
+
 #define DHTPIN D4     // Define the pin to which the DHT11 sensor is connected.
 #define DHTTYPE DHT11 // DHT type (DHT11 or DHT22)
 
