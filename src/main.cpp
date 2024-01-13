@@ -1,6 +1,6 @@
 #include <DHT.h>
 #include <ESP8266WiFi.h>
-#include <ESP8266WebServer.h>  // Include the ESP8266WebServer library
+#include <ESP8266WebServer.h>
 #include <Adafruit_Sensor.h>
 
 #define DHTPIN D4     // Define the pin to which the DHT11 sensor is connected.
