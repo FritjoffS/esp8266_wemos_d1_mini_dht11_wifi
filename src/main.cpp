@@ -7,8 +7,8 @@
 #define DHTPIN D4     // Define the pin to which the DHT11 sensor is connected.
 #define DHTTYPE DHT11 // DHT type (DHT11 or DHT22)
 
-const char* ssid = "AnnaFredrik";
-const char* password = "Mansken47";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 DHT dht(DHTPIN, DHTTYPE);
 ESP8266WebServer server(80);  // Create an instance of the ESP8266WebServer class on port 80
